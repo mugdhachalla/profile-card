@@ -36,17 +36,26 @@ body {
     margin-bottom: 15px;
 }
 
-.profile-card a {
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* space between buttons */
+    align-items: center;
+}
+
+.button-group a {
     text-decoration: none;
     background-color: #4a90e2;
     color: white;
     padding: 10px 20px;
     border-radius: 20px;
     font-size: 14px;
+    width: 100%; /* full width inside card */
+    max-width: 130px;
     transition: background-color 0.3s ease;
 }
 
-.profile-card a:hover {
+.button-group a:hover {
     background-color: #357ABD;
 }
-
